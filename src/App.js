@@ -18,7 +18,6 @@ import { get, ENDPOINTS } from './utils/api'
 
 //components
 import PokemonCard from './components/PokemonCard'
-var unirest = require('unirest')
 
 class App extends Component {
     constructor( props ) {
