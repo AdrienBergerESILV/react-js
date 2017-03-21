@@ -1,39 +1,44 @@
-.weather-icon {
+.pokemon-icon {
     position: absolute;
+    font-size: 125%;
     right: 10px;
     top: 10px;
 }
 
-.weather-data {
+.pokemon-data {
     padding-right: 60px;
     font-size: 125%;
 }
 
-.weather-data i {
+.pokemon-data i {
     margin-right: 5px;
     color: #ffab40;
     vertical-align: middle;
 }
 
-.weather-data p {
+.pokemon-data p {
     margin-bottom: 15px !important;
 }
 
-.weather-city {
+.pokemon-city {
     font-size: 22px;
     pointer-events: none;
 }
 
-.weather-img-container {
-    max-width: 200px !important;
+.pokemon-img-container {
+
+    min-height: 200px;
+    max-height: 250px !important;
     overflow: hidden;
 }
 
-.weather-img-container .card-title {
+.pokemon-img-container .card-title {
     text-shadow: 0px 2px 3px black;
 }
 
-.weather-img {
+.pokemon-img {
+
+    min-height: 200px;
     max-height: 240px;
     max-width: initial !important;
 }
